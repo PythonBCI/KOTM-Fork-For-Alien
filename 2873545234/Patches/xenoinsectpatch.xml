@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationSequence">
+    <operations>
+      <!-- Megaspider to xeno warrior-->
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/PawnKindDef[defName = "Megaspider"]/label</xpath>
+        <value>
+          <label>xenomorph warrior</label>
+        </value>
+      </li>
+
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[defName = "Megaspider"]/label</xpath>
+        <value>
+          <label>xenomorph warrior</label>
+        </value>
+      </li>
+
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[defName = "Megaspider"]/description</xpath>
+        <value>
+          <description>A larger, more aggressive variant of the xenomorph drone.</description>
+        </value>
+      </li>
+
+      <!-- spelopede to xeno drone-->
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/PawnKindDef[defName = "Spelopede"]/label</xpath>
+        <value>
+          <label>xenomorph drone</label>
+        </value>
+      </li>
+
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[defName = "Spelopede"]/label</xpath>
+        <value>
+          <label>xenomorph drone</label>
+        </value>
+      </li>
+
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[defName = "Spelopede"]/description</xpath>
+        <value>
+          <description>The most common form of xenomorph. A creature about the size of a person of unknown origin and boundless violence.</description>
+        </value>
+      </li>
+
+      <!--- Megascarab to facehugger -->
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/PawnKindDef[defName = "Megascarab"]/label</xpath>
+        <value>
+          <label>facehugger</label>
+        </value>
+      </li>
+
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[defName = "Megascarab"]/label</xpath>
+        <value>
+          <label>facehugger</label>
+        </value>
+      </li>
+
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[defName = "Megascarab"]/description</xpath>
+        <value>
+          <description>An unsettling combination of spider and crab, this abomination launches from it's egg with a single intent - force the nearest human into hosting a xenomorph embryo.</description>
+        </value>
+      </li>
+
+      <!--- Hivequeen to queen -->
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/PawnKindDef[defName = "HiveQueen"]/label</xpath>
+        <value>
+          <label>queen</label>
+        </value>
+      </li>
+
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[defName = "HiveQueen"]/label</xpath>
+        <value>
+          <label>queen</label>
+        </value>
+      </li>
+
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[defName = "HiveQueen"]/description</xpath>
+        <value>
+          <label>The massive, angry progenitor of a xenomorph hive.</label>
+        </value>
+      </li>
+
+            <!--- Locust to xenowasp -->
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/PawnKindDef[defName = "Locust"]/label</xpath>
+        <value>
+          <label>xenowasp</label>
+        </value>
+      </li>
+
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[defName = "Locust"]/label</xpath>
+        <value>
+          <label>xenowasp</label>
+        </value>
+      </li>
+
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[defName = "Locust"]/description</xpath>
+        <value>
+          <label>A fast, lightweight xenomorph able to fly short distances with terrifying speed.</label>
+        </value>
+      </li>
+
+            <!--- Larva to chestburster -->
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/PawnKindDef[defName = "Larva"]/label</xpath>
+        <value>
+          <label>chestburster</label>
+        </value>
+      </li>
+
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[defName = "Larva"]/label</xpath>
+        <value>
+          <label>chestburster</label>
+        </value>
+      </li>
+
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[defName = "Larva"]/description</xpath>
+        <value>
+          <label>A newly 'birthed' xenomorph, still wet with the flesh of its unfortunate host.</label>
+        </value>
+      </li>
+      
+    </operations>
+  </Operation>
+</Patch>
